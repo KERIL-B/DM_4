@@ -1,0 +1,15 @@
+﻿<Window x:Class="DM_4.Graphs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Graph" Height="350" Width="682.278">
+    <Grid x:Name="grid">
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="284" VerticalAlignment="Top" Width="517" MouseDown="canvas_MouseDown" Background="White"/>
+        <Button x:Name="DeepBtn" Content="Вглубину" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="75" Click="DeepBtn_Click"/>
+        <Button x:Name="LvlBtn" Content="По уровням" HorizontalAlignment="Left" Margin="430,289,0,0" VerticalAlignment="Top" Width="75" Click="LvlBtn_Click"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="20" Margin="146,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="20" Margin="330,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49"/>
+        <Button Content="Связать" HorizontalAlignment="Left" Margin="225,289,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox x:Name="DiscriptionTb" HorizontalAlignment="Left" Height="299" Margin="522,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Background="White" Foreground="Black" FontSize="10" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True"/>
+
+    </Grid>
+</Window>
